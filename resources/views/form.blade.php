@@ -1,5 +1,7 @@
 @extends('layouts.master')
 
+@section('title', 'Create')
+
 @section('content')
     <form method="POST" action="{{route('superheroes.store')}}">
         @csrf

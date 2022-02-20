@@ -16,4 +16,5 @@ class Superhero extends Model
         'images',
 
     ];
+
 }
